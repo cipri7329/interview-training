@@ -1,4 +1,4 @@
-package training.arrays;
+package training.algo.arrays;
 
 import java.util.Arrays;
 

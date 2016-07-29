@@ -1,4 +1,4 @@
-package training.iterations; /**
+package training.algo.iterations; /**
  * Created by cipri on 7/28/16.
  */
 
