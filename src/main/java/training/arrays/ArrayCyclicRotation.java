@@ -1,3 +1,5 @@
+package training.arrays;
+
 import java.util.Arrays;
 
 /**
