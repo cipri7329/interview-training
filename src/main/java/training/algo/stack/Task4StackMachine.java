@@ -17,16 +17,15 @@ public class Task4StackMachine {
         if(S.isEmpty())
             return -1;
 
-        Stack<Integer> stack = new Stack<>();
+        Stack<Long> stack = new Stack<>();
         char[] input = S.toCharArray();
 
         for(char c : input){
 
             if(c == '+'){
-
                 if (stack.size() >= 2) {
-                    int a = stack.pop();
-                    int b = stack.pop();
+                    long a = stack.pop();
+                    long b = stack.pop();
                     stack.push(a + b);
                 }
                 else {
@@ -37,8 +36,8 @@ public class Task4StackMachine {
             }
             else if (c == '*'){
                 if (stack.size() >= 2) {
-                    int a = stack.pop();
-                    int b = stack.pop();
+                    long a = stack.pop();
+                    long b = stack.pop();
                     stack.push(a * b);
                 }
                 else {
@@ -50,7 +49,7 @@ public class Task4StackMachine {
                 //is number
                 try {
                     int number = Integer.parseInt("" + c);
-                    stack.push(number);
+                    stack.push((long)number);
                 }
                 catch (NumberFormatException e){
                     //invalid input
@@ -61,7 +60,7 @@ public class Task4StackMachine {
         }
 
         if(stack.size() == 1)
-            return stack.pop();
+            return stack.pop().intValue();
         else
             return -1;
     }

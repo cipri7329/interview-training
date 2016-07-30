@@ -1,4 +1,4 @@
-package training.algo.iterations; /**
+package training.algo.dynamic; /**
  * Created by cipri on 7/28/16.
  */
 
