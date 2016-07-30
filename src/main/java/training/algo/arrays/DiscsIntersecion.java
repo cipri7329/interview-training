@@ -54,7 +54,7 @@ public class DiscsIntersecion {
                 cnt += insertionPoint;
             }
 
-        }e
+        }
 
         long sub = (long)l*((long)l+1)/2;
         cnt = cnt - sub;
