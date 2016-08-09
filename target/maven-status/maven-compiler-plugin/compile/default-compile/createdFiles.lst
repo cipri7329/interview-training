@@ -1,3 +1,10 @@
-ArrayCyclicRotation.class
-BinaryLongestZeroSequence.class
+training/algo/dynamic/BinaryLongestZeroSequence.class
+training/algo/dynamic/LongestIncreasingSequence.class
+training/algo/arrays/CoveringPrefix.class
+training/algo/dynamic/ExtremeValueMedian.class
+training/algo/stack/Task4StackMachine.class
 Test.class
+training/algo/arrays/DiscsIntersecion.class
+training/algo/arrays/EquilibriumIndex.class
+training/algo/arrays/ArrayCyclicRotation.class
+training/algo/iterations/SquareRootWithinInterval.class
